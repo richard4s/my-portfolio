@@ -21,10 +21,10 @@ const SEO = () => {
     <Helmet>
       <html lang={config.siteLanguage} />
       <title>{title}</title>
-      <link rel="apple-touch-icon" href="/favicons/apple-touch-icon.png" />
-      <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
-      <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
-      <link rel="shortcut icon" href="favicon.ico" />
+      <link rel="apple-touch-icon" href="/images/richard-oluwo-plain.PNG" />
+      <link rel="icon" type="image/png" sizes="32x32" href="/images/richard-oluwo-plain.PNG" />
+      <link rel="icon" type="image/png" sizes="16x16" href="/images/richard-oluwo-plain.PNG" />
+      <link rel="shortcut icon" href="/images/richard-oluwo-plain.PNG" />
       <meta name="msapplication-TileColor" content={config.backgroundColor} />
       <meta name="msapplication-config" content="browserconfig.xml" />
       <meta name="description" content={description} />
