@@ -30,9 +30,10 @@ const Layout = ({ children }) => (
         >
           <main>{children}</main>
           <footer>
-            © {new Date().getFullYear()},
+           
+            <a href="https://www.richardoluwo.ga">Made by a big Leonardo Da Vinci fan.</a>
             {` `}
-            <a href="https://www.richardoluwo.ga">Made by a big Leonardo Da Vinci fan</a>
+            © {new Date().getFullYear()}
           </footer>
         </div>
       </>
