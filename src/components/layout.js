@@ -4,6 +4,7 @@ import { StaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -30,10 +31,9 @@ const Layout = ({ children }) => (
         >
           <main>{children}</main>
           <footer>
-           
-            <a href="https://www.richardoluwo.ga">Made by a big Leonardo Da Vinci fan.</a>
+            <OutboundLink href="https://www.richardoluwo.ga">Made by a big Leonardo Da Vinci fan.</OutboundLink>
             {` `}
-            © {new Date().getFullYear()}
+            © {new Date().getFullYear()}.
           </footer>
         </div>
       </>
