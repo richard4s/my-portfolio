@@ -1,5 +1,5 @@
 ---
-path: "/blog/hello-world"
+path: "./blog/hello-world"
 date: "2019-02-21"
 title: "Hello World 🖐"
 featuredImage: "../../images/hello-world.png"
