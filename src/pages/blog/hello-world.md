@@ -2,6 +2,7 @@
 path: "/hello-world"
 date: "2019-02-21"
 title: "Hello World 🖐"
+featuredImage: "../../images/hello-world.png"
 ---
 
 As is the case with almost everything I can imagine, a friendly introduction to my blog.

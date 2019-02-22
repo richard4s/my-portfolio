@@ -2,6 +2,7 @@ import React from "react"
 // import { Link } from "gatsby"
 
 import Layout from "../components/layout"
+// import Img from 'gatsby-image'
 // // import Image from "../components/image"
 // import HelloWorldImg from "../components/images/helloWorldImg"
 import SEO from "../components/seo"
@@ -16,10 +17,12 @@ const IndexPage = ({
   const Posts = edges
     .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
     .map(edge => <HelloWorld key={edge.node.id} post={edge.node} />)
+    // const PictureWrapper = styled(Img)
 
   return <Layout>
         <SEO title="Richard Oluwo's Blog" />
           {Posts}
+          {/* <PictureWrapper fluid={Posts.node.frontmatter.featuredImage.childImageSharp.sizes} /> */}
         </Layout>
 }
 
@@ -38,6 +41,13 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             path
             title
+            featuredImage {
+              childImageSharp{
+                  sizes(maxWidth: 630) {
+                      ...GatsbyImageSharpSizes
+                  }
+              }
+          }
           }
         }
       }
