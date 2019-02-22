@@ -1,5 +1,5 @@
 ---
-path: "deploying-to-netlify"
+path: "blog/deploying-to-netlify"
 date: "2019-02-22"
 title: "Deploying To Netlify"
 featuredImage: "../../images/hello-world.png"
