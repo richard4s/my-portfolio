@@ -22,14 +22,14 @@
 import React from "react"
 import { Link } from "gatsby"
 
-const HelloWorld = ({ post }) => (
+const Blog = ({ post }) => (
   <div>
     <Link style={{ textDecoration: `none`, color: `#000`}} to={post.frontmatter.path}>
       <h1>{post.frontmatter.title}</h1>
     </Link>
-    {post.frontmatter.date} ☕️<br/><br/>
+    {post.frontmatter.date} ☕️ • {post.timeToRead} min read<br/><br/>
     <p>{post.excerpt.replace(/<\/?[^>]+(>|$)/g, "")}</p>
   </div>
 )
 
-export default HelloWorld
+export default Blog

@@ -5,7 +5,8 @@ import Layout from "../components/layout"
 // // import Image from "../components/image"
 // import HelloWorldImg from "../components/images/helloWorldImg"
 import SEO from "../components/seo"
-import HelloWorld from "./hello-world/hello-world"
+import HelloWorld from "./blog"
+// import SecondPost from "./second-post/second-post"
 
 const IndexPage = ({
   data: {
@@ -32,6 +33,7 @@ export const pageQuery = graphql`
           id
           excerpt(pruneLength: 250)
           html
+          timeToRead
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             path

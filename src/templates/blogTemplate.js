@@ -13,9 +13,9 @@ export default function Template({
   const newHtml = html.replace(/<\/?[^>]+(>|$)/g, "")
   return (
     <Layout>
-        <SEO title="Hello World" />
+        <SEO title="{frontmatter.title}" />
         <h1>{frontmatter.title}</h1>
-        {frontmatter.date} ☕️<br /><br />
+        {frontmatter.date} ☕️ • {markdownRemark.timeToRead} min read<br /><br />
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: newHtml }}
@@ -30,6 +30,7 @@ export const pageQuery = graphql`
   query($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
+      timeToRead
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         path

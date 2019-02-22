@@ -15,7 +15,7 @@ const NotFoundPage = () => (
       marginLeft: `auto`,
       marginRight: `auto`}}>4<span role="img" aria-label="Crying">😭</span>4</h1>
       <p>You've ventured into the desert. Hope you find your back!</p>
-      <Link to="/">Home Page</Link>
+      <Link to="/">Here's a hand</Link>
   </Layout>
 )
 

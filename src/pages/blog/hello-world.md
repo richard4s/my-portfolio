@@ -1,5 +1,5 @@
 ---
-path: "/hello-world/hello-world"
+path: "/hello-world"
 date: "2019-02-21"
 title: "Hello World 🖐"
 ---
