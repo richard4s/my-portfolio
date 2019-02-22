@@ -24,7 +24,7 @@ module.exports = {
         background_color: `#020887`,
         theme_color: `#020887`,
         display: `minimal-ui`,
-        icon: `./src/images/richard-oluwo-logo.PNG`, // This path is relative to the root of the site.
+        icon: `./public/icons/richard-oluwo-logo.PNG`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-google-analytics`,
