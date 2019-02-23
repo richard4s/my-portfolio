@@ -22,7 +22,7 @@ export default function Template({
           dangerouslySetInnerHTML={{ __html: newHtml }}
         />
         <br />
-        <Img fluid={frontmatter.featuredImage.childImageSharp.fluid} />
+        <Img fluid={markdownRemark.frontmatter.featuredImage.childImageSharp.fluid} />
         <Link to="/">Go back to the homepage</Link>
       </Layout>
   )
