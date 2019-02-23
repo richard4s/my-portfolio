@@ -14,7 +14,7 @@ export default function Template({
   const newHtml = html.replace(/<\/?[^>]+(>|$)/g, "")
   return (
     <Layout>
-        <SEO title="{frontmatter.title}" />
+        <SEO title={frontmatter.title} />
         <h1>{frontmatter.title}</h1>
         {frontmatter.date} ☕️ • {markdownRemark.timeToRead} min read<br /><br />
         <div
