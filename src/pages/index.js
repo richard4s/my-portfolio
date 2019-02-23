@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 // // import Image from "../components/image"
 // import HelloWorldImg from "../components/images/helloWorldImg"
 import SEO from "../components/seo"
-import HelloWorld from "./blog"
+import HelloWorld from "../templates/blog"
 import { graphql } from 'gatsby'
 // import SecondPost from "./second-post/second-post"
 

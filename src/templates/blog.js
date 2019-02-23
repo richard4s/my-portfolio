@@ -21,6 +21,7 @@
 
 import React from "react"
 import { Link } from "gatsby"
+import { graphql } from 'gatsby'
 
 const Blog = ({ post }) => (
   <div>
@@ -33,3 +34,33 @@ const Blog = ({ post }) => (
 )
 
 export default Blog
+
+export const pageQuery = graphql`
+  query($path: String!) {
+    markdownRemark(frontmatter: { path: { eq: $path } }) {
+      html
+      timeToRead
+      frontmatter {
+        date(formatString: "MMMM DD, YYYY")
+        path
+        title
+        featuredImage {
+          childImageSharp {
+      fluid(maxWidth: 1200) {
+        base64
+        tracedSVG
+        aspectRatio
+        src
+        srcSet
+        srcWebp
+        srcSetWebp
+        sizes
+        originalImg
+        originalName
+      }
+    }
+        }
+      }
+    }
+  }
+`
