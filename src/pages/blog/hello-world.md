@@ -7,6 +7,9 @@ featuredImage: "../../images/hello-world.png"
 
 As is the case with almost everything I can imagine, a friendly introduction to my blog.
 The truth is I have actually been postponing publishing of my blog for a while.
+I drew inspiration to start this blog from a whole bunch of people like Paul Graham (You should totally read his essays, all of them),
+Bryan Johnson, Patrick Collision (I am going to meet with guy someday), Lanre Adelowo (https://lanre.wtf The only person on the list I actually know personally), Sam Altman, Shola from Paystack and a chunk of other folks that I admire from a distance of course.<br />
+
 With everything happening right now just seems like the right time. So here you go, I try to do as much as I can while I can at least.
 The developer journey really is very easy to trail off course, to something a just a bit more easier, something that won't really change you much, something seamlessly easy. <br />
 
