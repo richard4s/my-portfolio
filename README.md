@@ -1,6 +1,6 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 
-<h1 align="center">
+<h1 align="center" style="font-weight: 900;">
   Blog for Richard Oluwo
 </h1>
 
