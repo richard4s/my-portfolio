@@ -11,7 +11,7 @@ import { rotate, UpDown, UpDownWide, waveAnimation } from '../styles/animations'
 import { hidden } from '../styles/utils';
 import { colors } from '../../tailwind';
 import triangle from '../images/triangle.svg';
-import avatar from '../images/avatar.jpg';
+// import avatar from '../images/avatar.jpg';
 import richard from '../images/richard-oluwo-11.jpg';
 import {SkinGlamour} from '../images/skinglamour.png';
 import '../styles/global';
@@ -280,7 +280,7 @@ const Index = () => (
           </ContactText>
         </Inner>
         <Footer>
-          Made by a big Leonardo Da Vinci fan{' '}.
+          Made by a big Leonardo Da Vinci fan.
         </Footer>
       </Content>
       <Divider speed={0.1} offset={4}>
