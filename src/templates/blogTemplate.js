@@ -17,12 +17,12 @@ export default function Template({
         <SEO title={frontmatter.title} />
         <h1>{frontmatter.title}</h1>
         {frontmatter.date} ☕️ • {markdownRemark.timeToRead} min read<br /><br />
+        <Img fluid={markdownRemark.frontmatter.featuredImage.childImageSharp.fluid} />
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: newHtml }}
         />
         <br />
-        <Img fluid={markdownRemark.frontmatter.featuredImage.childImageSharp.fluid} />
         <Link to="/">Go back to the homepage</Link>
       </Layout>
   )
