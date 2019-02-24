@@ -35,12 +35,12 @@ module.exports = {
           {
             src: `/src/images/richard-oluwo-logo.PNG`,
             sizes: '192x192',
-            type: 'image/png',
+            type: 'image/PNG',
           },
           {
             src: `/src/images/richard-oluwo-logo.PNG`,
             sizes: '512x512',
-            type: 'image/png',
+            type: 'image/PNG',
           },
         ],
       },
