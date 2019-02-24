@@ -7,7 +7,7 @@ module.exports = {
   siteTitleAlt: 'Richard Oluwo', // Alternative Site title for SEO
   siteUrl: 'https://richardoluwo.ga', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
-  siteLogo: '/src/images/richard-oluwo-logo.PNG', // Used for SEO and manifest
+  siteLogo: '/src/images/richard-oluwo-plain.PNG', // Used for SEO and manifest
   siteDescription: 'Fullstack Developer Richard Oluwo',
 
   // siteFBAppID: '123456789', // Facebook App ID - Optional
