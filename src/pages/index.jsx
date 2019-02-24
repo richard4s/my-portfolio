@@ -13,7 +13,7 @@ import { colors } from '../../tailwind';
 import triangle from '../images/triangle.svg';
 import avatar from '../images/avatar.jpg';
 import richard from '../images/richard-oluwo-11.jpg';
-import SkinGlamour from '../images/skinglamour.png';
+import {SkinGlamour} from '../images/skinglamour.png';
 import '../styles/global';
 
 const Divider = styled(ParallaxLayer)`
@@ -178,18 +178,18 @@ const Index = () => (
           <Title>Projects</Title>
           <ProjectsWrapper>
             <ProjectCard
-              title="Freiheit"
-              link="https://www.behance.net/gallery/58937147/Freiheit"
+              title="Fegor Shoes"
+              link="https://fegorshoes.com"
               bg={SkinGlamour}
             >
-              This project is my entry to Adobe's #ChallengeYourPerspective contest.
+              An E-Commerce website built on top of laravel for a friend
             </ProjectCard>
             <ProjectCard
-              title="Eagle"
-              link="https://www.behance.net/gallery/38068151/Eagle"
+              title="Prime Value College"
+              link="https://primevaluecollege.com"
               bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
             >
-              A fantasy image manipulation relocating the habitat of wild animals.
+              A School website built for A-level students
             </ProjectCard>
           </ProjectsWrapper>
         </Inner>
