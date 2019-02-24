@@ -33,12 +33,12 @@ module.exports = {
         display: 'standalone',
         icons: [
           {
-            src: `/src/images/richard-oluwo-logo.PNG`,
+            src: './src/images/richard-oluwo-logo.PNG',
             sizes: '192x192',
             type: 'image/PNG',
           },
           {
-            src: `/src/images/richard-oluwo-logo.PNG`,
+            src: './src/images/richard-oluwo-logo.PNG',
             sizes: '512x512',
             type: 'image/PNG',
           },
