@@ -3,4 +3,4 @@
 </h1>
 
 Just in case I have anybody stalking me for whatever reason.
-Check it out at [Richard Oluwo](https://www.richardoluwo.ga)
+Check it out at [Richard Oluwo](https://www.richardoluwo.ga) or aadd a nice feature.
