@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { StaticQuery, graphql } from "gatsby"
+import { StaticQuery, graphql, Link } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
@@ -31,6 +31,11 @@ const Layout = ({ children }) => (
         >
           <main>{children}</main>
           <footer>
+            <div>
+              <Link to="https://www.twitter.com/richard4s">twitter</Link>
+              <Link to="https://www.github.com/richard4s">github</Link>
+              <Link to="https://stackoverflow.com/users/9104897/richard4s">stackoverflow</Link>
+            </div>
             <OutboundLink href="https://www.richardoluwo.ga">Made by a big Leonardo Da Vinci fan.</OutboundLink>
             {` `}
             © {new Date().getFullYear()}.
