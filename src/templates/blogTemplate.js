@@ -15,7 +15,7 @@ export default function Template({
   const newHtml = html.replace(/<\/p>/g, "");
 
   const disqusConfig = {
-    url: `https://blog.richardoluwo.ga${frontmatter.path}`,
+    url: `https://blog.richardoluwo.ga/${frontmatter.path}`,
     identifier: `${frontmatter.path}`,
     title: frontmatter.title,
   }
