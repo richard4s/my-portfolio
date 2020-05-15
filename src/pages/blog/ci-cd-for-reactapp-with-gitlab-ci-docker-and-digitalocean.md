@@ -24,13 +24,15 @@ So you went against what everyone was saying about going serverless or you just 
 Gitlab CI looks for a `.gitlab-ci.yml` in the repository you want the CI/CD to run. So at the root of your project folder, create a `.gitlab-ci.yml` and add the folllowing content to it for react. For other formats, you can look up the references documentation here [Gitlab Reference Documentation](https://docs.gitlab.com/ce/ci/yaml/README.html). 
 You'll need to create variables, In your gitlab repository, go to `Settings > CI/CD > Variables` and then click the expand button by the side, it should look something like the picture below:
 
+<img src="../../images/variables-ci-cd.png">
+
 ![CI/CD Variables](../../images/variables-ci-cd.png)
 
 #### Add the following variables
 - `$SSH_PRIVATE_KEY` - The value is your SSH private key generated from your digitalocean server (e.g. content of ~/.ssh/id_rsa)
 - `$SSH_USERNAME` - The username of the ssh used to login to your server (e.g. root)
 - `$SSH_IP` - The IP address of your server (e.g. 192.292.28.132 or example.com)
-- 1 - The path to your project on your server
+- `{path-to-project}` - The path to your project on your server
 
 The project on your server must have been initially cloned from your repository / linked via git remote add … and in sync.
 For React, the code below should go into your `.gitlab-ci.yml`:
