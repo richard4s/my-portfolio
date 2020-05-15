@@ -27,10 +27,10 @@ You'll need to create variables, In your gitlab repository, go to `Settings > CI
 ![CI/CD Variables](../../images/variables-ci-cd.png)
 
 #### Add the following variables
-- $SSH_PRIVATE_KEY - The value is your SSH private key generated from your digitalocean server (e.g. content of ~/.ssh/id_rsa)
-- $SSH_USERNAME - The username of the ssh used to login to your server (e.g. root)
-- $SSH_IP - The IP address of your server (e.g. 192.292.28.132 or example.com)
-- path-to-project - The path to your project on your server
+- `$SSH_PRIVATE_KEY` - The value is your SSH private key generated from your digitalocean server (e.g. content of ~/.ssh/id_rsa)
+- `$SSH_USERNAME` - The username of the ssh used to login to your server (e.g. root)
+- `$SSH_IP` - The IP address of your server (e.g. 192.292.28.132 or example.com)
+- 1 - The path to your project on your server
 
 The project on your server must have been initially cloned from your repository / linked via git remote add … and in sync.
 For React, the code below should go into your `.gitlab-ci.yml`:
