@@ -24,7 +24,7 @@ So you went against what everyone was saying about going serverless or you just 
 Gitlab CI looks for a `.gitlab-ci.yml` in the repository you want the CI/CD to run. So at the root of your project folder, create a `.gitlab-ci.yml` and add the folllowing content to it for react. For other formats, you can look up the references documentation here [Gitlab Reference Documentation](https://docs.gitlab.com/ce/ci/yaml/README.html). 
 You'll need to create variables, In your gitlab repository, go to `Settings > CI/CD > Variables` and then click the expand button by the side, it should look something like the picture below:
 
-<img src="../../images/variables-ci-cd.png">
+<img fluid="../../images/variables-ci-cd.png" src="../../images/variables-ci-cd.png" />
 
 ![CI/CD Variables](../../images/variables-ci-cd.png)
 
